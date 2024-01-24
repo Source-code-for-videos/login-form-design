@@ -9,8 +9,8 @@ const App = () => {
   const [active, setActive] = useState(false);
 
   return (
-    <main className="w-full h-[100vh] bg-blue-500 flex items-center justify-center px-4">
-      <form className="w-[35%] bg-white rounded-lg py-6 px-8 flex items-center justify-center flex-col gap-5">
+    <main className="w-full h-auto sm:h-[100vh] bg-blue-500 flex items-center justify-center sm:p-0 p-6">
+      <form className="w-full sm:w-[35%] bg-white rounded-lg py-6 px-8 flex items-center justify-center flex-col gap-5">
         <h3 className="text-[1.8rem] font-[700] text-gray-900">Login</h3>
         <input
           type="email"
